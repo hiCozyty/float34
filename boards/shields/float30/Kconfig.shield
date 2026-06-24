@@ -1,0 +1,7 @@
+config SHIELD_FLOAT30_LEFT
+    bool "Float30 Left"
+    depends on !ZMK_KEYBOARD_SELECT
+
+config SHIELD_FLOAT30_RIGHT
+    bool "Float30 Right"
+    depends on !ZMK_KEYBOARD_SELECT

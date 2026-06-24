@@ -1,0 +1,23 @@
+if SHIELD_FLOAT30_LEFT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
+if SHIELD_FLOAT30_RIGHT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_FLOAT30_LEFT || SHIELD_FLOAT30_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Float30"
+
+config ZMK_SPLIT
+    default y
+
+endif

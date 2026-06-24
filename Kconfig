@@ -1,0 +1,3 @@
+# Float30 ZMK module Kconfig
+source "boards/shields/float30/Kconfig.shield"
+source "boards/shields/float30/Kconfig.defconfig"
