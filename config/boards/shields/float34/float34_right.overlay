@@ -1,4 +1,4 @@
-#include "float30.dtsi"
+#include "float34.dtsi"
 
 / {
     chosen {
@@ -19,7 +19,6 @@
 };
 
 &kscan0 {
-    col-offset = <6>;
     col-gpios
         = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>

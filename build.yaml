@@ -1,6 +1,6 @@
 # This file is the build definition for the Float30 keyboard.
 include:
   - board: nice_nano_v2
-    shield: float30_left
+    shield: float34_left
   - board: nice_nano_v2
-    shield: float30_right
+    shield: float34_right

@@ -1,0 +1,6 @@
+id: float34
+name: Float34
+type: shield
+siblings:
+  - float34_left
+  - float34_right
