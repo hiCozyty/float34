@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "kicad": {
+      "type": "local",
+      "command": ["node", "/home/cozyty/Projects/float30/KiCAD-MCP-Server/dist/index.js"],
+      "environment": {
+        "NODE_ENV": "production",
+        "LOG_LEVEL": "info",
+        "KICAD_AUTO_LAUNCH": "false",
+        "KICAD_PYTHON": "/home/cozyty/Projects/float30/.venv/bin/python"
+      },
+      "enabled": true,
+      "timeout": 30000
+    }
+  }
+}

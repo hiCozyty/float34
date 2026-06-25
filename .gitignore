@@ -5,3 +5,7 @@ modules/
 
 *.lck
 .codeboarding
+.python-version
+.venv/
+KiCAD-MCP-Server/node_modules/
+KiCAD-MCP-Server/dist/
