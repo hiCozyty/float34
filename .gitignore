@@ -2,3 +2,6 @@ build/
 *.uf2
 .west/
 modules/
+
+*.lck
+.codeboarding
