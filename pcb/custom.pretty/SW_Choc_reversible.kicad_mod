@@ -1,0 +1,100 @@
+(footprint "SW_Choc_reversible"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Choc V2 (PG1232/CPG1232) low-profile keyswitch, reversible for top/bottom mount")
+  (tags "Choc V2 PG1232 CPG1232 Kailh low-profile reversible")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "9cacd9ce-ed7b-4f4b-b76d-f4fced44ea78")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SW_Choc_reversible" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "4e59b5ae-361a-4622-bedc-204ae9986c8a")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "fa0d4bbc-a4b6-47c0-9652-e13aa3b0a379")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -7.5 -7.5)
+    (end 7.5 7.5)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "be35c5d7-5493-4513-a903-e5ae92a3cdbb")
+  )
+
+  (fp_rect
+    (start -6.9 -6.9)
+    (end 6.9 6.9)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "3521ed41-7d83-4c2d-9101-d1ea5754e7bb")
+  )
+
+  (fp_rect
+    (start -7 -7)
+    (end 7 7)
+    (stroke (width 0.15) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "7aa11e8e-c8c6-4366-9103-a72e8af85da3")
+  )
+
+  (pad "" np_thru_hole circle
+    (at -4.445 -1.905)
+    (size 1.5 1.5)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "f30733c2-3266-41f3-bd2f-daef68b3779c")
+  )
+
+  (pad "" np_thru_hole circle
+    (at 4.445 -1.905)
+    (size 1.5 1.5)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "689c28da-206e-4320-9570-0b388050ec9b")
+  )
+
+  (pad "1" thru_hole circle
+    (at -2.54 5.08)
+    (size 2 2)
+    (drill 1.35)
+    (layers "*.Cu" "*.Mask")
+    (uuid "2c4542a9-7600-4699-8a0c-017ed04f91a6")
+  )
+
+  (pad "1" thru_hole oval
+    (at -3.81 2.54 206.5)
+    (size 2 5.2)
+    (drill 1.35)
+    (layers "*.Cu" "*.Mask")
+    (uuid "cf63a015-2815-4d91-8d67-2b0b088d79bd")
+  )
+
+  (pad "2" thru_hole circle
+    (at 2.54 5.08)
+    (size 2 2)
+    (drill 1.35)
+    (layers "*.Cu" "*.Mask")
+    (uuid "522a6a8b-2090-4141-a3aa-137d03f5ce53")
+  )
+
+  (pad "2" thru_hole oval
+    (at 3.81 2.54 153.5)
+    (size 2 5.2)
+    (drill 1.35)
+    (layers "*.Cu" "*.Mask")
+    (uuid "c3efa795-5a02-470f-a096-1d1231996059")
+  )
+
+)

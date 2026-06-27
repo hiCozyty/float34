@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "custom")(type "KiCad")(uri "/home/cozyty/Projects/float30/pcb/custom.pretty")(options "")(descr ""))
+)
